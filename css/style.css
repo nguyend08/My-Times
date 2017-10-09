@@ -1,0 +1,167 @@
+.header {
+  border-bottom: 1px solid black;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo p {
+  color: MediumAquamarine;
+}
+
+nav {
+  display: flex;
+  padding-right: 40px;
+}
+
+nav span a {
+  padding: 20px 10px;
+  color: black;
+}
+
+.main-content {
+  border: 3px solid blue;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 30px;
+}
+
+.column-large {
+  border: 3px solid blue;
+  display: flex;
+  flex-direction:column;
+  margin-right: 32px;
+  width: 630px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.caption-mother {
+  border: 3px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
+}
+
+.caption-mother p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.monument-article {
+  border: 3px solid blue;
+}
+
+.tile-orca {
+  border: 3px solid blue;
+}
+
+.orca-article {
+  border: 3px solid blue;
+}
+
+.caption-earth p {
+  border: 3px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.title-burger {
+  border: 3px solid blue;
+}
+
+.burger-article {
+  border: 3px solid blue;
+}
+
+.caption-camera {
+  border: 3px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.column-medium {
+  border: 3px solid blue;
+  width: 300px;
+  display: flex;
+  flex-direction:column;
+  margin-right: 32px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.title-fbi {
+  border: 3px solid blue;
+}
+
+.fbi-article {
+  border: 3px solid blue;
+}
+
+.caption-cats p {
+  border: 3px solid blue;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.brooklyn-article {
+  border: 3px solid blue;
+}
+
+.column-small {
+  border: 3px solid blue;
+  width: 240px;
+  display: flex;
+  flex-direction:column;
+  margin-right: 32px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.cookie-img {
+  border: 3px solid blue;
+}
+
+.news-title {
+  border: 3px solid blue;
+}
+
+.news-article {
+  border: 3px solid blue;
+}
