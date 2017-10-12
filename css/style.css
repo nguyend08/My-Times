@@ -53,6 +53,11 @@ nav span a {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  flex-wrap: wrap;
+}
+
+.box-1 {
+  display: flex;
 }
 
 .caption-mother {
@@ -74,6 +79,7 @@ nav span a {
 
 .tile-orca {
   border: 3px solid blue;
+  display: flex;
 }
 
 .orca-article {
@@ -89,10 +95,12 @@ nav span a {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
 }
 
 .title-burger {
   border: 3px solid blue;
+  display: flex;
 }
 
 .burger-article {
